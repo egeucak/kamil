@@ -1,0 +1,12 @@
+routes:
+ - route: /test1
+   name: test1
+   port: 8080
+   request-types:
+    - POST
+   host: localhost
+   
+ - route: /test2/.*
+   name: test2
+   port: 8081
+   host: localhost
